@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+    padding: 50px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Clase que aplicará el JS para el modo oscuro */
+.tema-oscuro {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+/* Estilos para el botón */
+.btn-tema {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #007bff;
+    transition: all 0.3s;
+}
+
+.btn-tema:hover {
+    background-color: #007bff;
+    color: white;
+}
