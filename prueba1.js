@@ -1,5 +1,5 @@
 const botonTema = document.getElementById('botonTema');
-
+//COMENTARIO 
 botonTema.addEventListener('click', () => {
     document.body.classList.toggle('tema-oscuro');
     
